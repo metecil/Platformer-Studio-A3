@@ -1,32 +1,40 @@
-# Third Person Platformer
+# Third Person Platformer A4
 
-A simple third person character controller in Unity
+A simple third-person character controller in Unity.
 
 ## Demo
 
-https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
+**DemoA4.mov**  
+[Click here to watch the demo video](/DemoA4.mov)
 
-## Cloning & Setting Up the Project
+## New UI Features
 
-1. Ensure you have
-	- **Unity Hub** (Download: [Unity Hub](https://unity.com/download))
-	- **Unity Version** (6000.0.31f1)
-	- **Git** ([Download Git](https://git-scm.com/)) or **Github Desktop** ([Download Github Desktop](https://desktop.github.com/download/))
-2. Clone the project via [Git](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli) or [Github Desktop](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=desktop)
-3. Open **Unity Hub**
-4. Click **"Open"** and select the cloned project folder (with Assets, ProjectSettings, Packages)
+- **Animated Coin Counter**  
+  A sliding coin counter in the top-right corner that animates each time you collect a coin.
+- **Settings Menu**  
+  Press **P** to open a pause menu that allows you to:
+  - Resume the game
+  - Adjust player speed
+  - Exit the application
+- **In-World Tutorial Board**  
+  A world-space canvas showing “Look,” “Move,” “Jump,” and “Dash” instructions, placed on a physical sign in the game world.
 
-## Features
+## Core Features
 
-- Third Person Camera
-- Move around with WASD
-- Jump, Double Jump with Space
-- Dash with Shift
-- Collect Coins by moving over them
-- Score Counter on the top right
+- **Third-Person Camera**  
+  Smoothly follow the player and rotate with the mouse.
+- **Movement (WASD)**  
+  Walk or run around the environment.
+- **Jump & Double Jump (Space)**  
+  Traverse platforms with ease.
+- **Dash (Shift)**  
+  Quickly move forward for short bursts.
+- **Collect Coins**  
+  Walk over coins to increase your score.
+- **Score Display**  
+  Keep track of your total coins in the top-right corner.
 
 ## Credits
 
-Uses coin model from [Quaternius](https://quaternius.com/) (Sourced from [Poly Pizza](https://poly.pizza/m/QHZtj94fvh))
-
-
+- Uses a coin model from [Quaternius](https://quaternius.com/) (sourced from [Poly Pizza](https://poly.pizza/m/QHZtj94fvh)).
+- Additional UI assets provided in the course materials.
